@@ -20,7 +20,7 @@ from pygenometracks.utilities import InputError
 import warnings
 
 matplotlib.use('Agg')
-matplotlib.rcParams[‘pdf.fonttype’] = 42
+matplotlib.rcParams['pdf.fonttype'] = 42
 warnings.filterwarnings("ignore", message="numpy.dtype size changed")
 warnings.filterwarnings("ignore", message="numpy.ndarray size changed")
 warnings.simplefilter(action='ignore', category=FutureWarning)
