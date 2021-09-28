@@ -692,7 +692,7 @@ class XAxisTrack(GenomeTrack):
 
         # Get the ticks values
         ticks = ax.get_xticks()
-        if ticks[-1] - ticks[1] <= 1e3:
+        if ticks[-1] - ticks[1] <= 4e5:
             labels = [f"{x:,.0f}"
                       for x in ticks]
             labels[-2] += " b"
